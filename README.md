@@ -29,3 +29,30 @@ Definiu-se o seguinte cronograma para o desenvolvimento das atividades, as quais
 * Implementação e escolha de operadores 11/06
 * Análise de resultados 18/06
 * Relatório e escrita de artigo 02/07
+
+Estrutura de Dados
+------
+horario[n,m] = i //aponta para docente
+docente[i] = j //aponta para disciplina
+disciplina[j] = int, default 0. //numero de docentes lecionando a disciplina
+
+Exemplo:
+
+horário = 
+[
+[1,2,3], 
+[0, 1, 2],
+[1,2,1],
+[3,4,1],
+];
+docente[0] = 1;
+docente[1] = 0;
+docente[2] = 3;
+docente[3] = 2;
+docente[4] = 3;
+
+disciplina[0] = 1; //matemática
+disciplina[1] = 1; // biologia
+disciplina[2] = 1; //química
+disciplina[3] = 2; // física
+disciplina[4] = 0; //literatura - nenhum docente dando aula.
