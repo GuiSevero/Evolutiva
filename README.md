@@ -1,4 +1,4 @@
-Evolutiva
+Computação Evolutiva - Trabalho #1
 =========
 
 Implementar aplicação, usando algoritmos Genéticos para
@@ -9,7 +9,7 @@ diferentes tamanhos de população, taxa de cruzamento e
 taxa de mutação.
 
 Hard Constraints
-=========
+--------
 * Todas as disciplinas da grade curricular contempladas.
 * Docente alocado em duas turmas ao mesmo tempo.
 * Turmas sem docente alocado.
@@ -17,7 +17,7 @@ Hard Constraints
 disciplinas que ministram.
 
 Soft Constraints
-=========
+--------
 * Eliminar o máximo de “janelas” de docentes.
 * Permitir a geminação de disciplinas em slots de tempo próximos.
 * Evitar “janelas” na alocação das disciplinas em um mesmo dia.
