@@ -32,9 +32,11 @@ Definiu-se o seguinte cronograma para o desenvolvimento das atividades, as quais
 
 Estrutura de Dados
 ------
+```c
 horario[n,m] = i //aponta para docente
 docente[i] = j //aponta para disciplina
 disciplina[j] = int, default 0. //numero de docentes lecionando a disciplina
+```
 
 Exemplo:
 ```c
