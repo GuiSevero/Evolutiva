@@ -37,14 +37,15 @@ docente[i] = j //aponta para disciplina
 disciplina[j] = int, default 0. //numero de docentes lecionando a disciplina
 
 Exemplo:
-
-horário = 
+```c
+horario = 
 [
 [1,2,3], 
 [0, 1, 2],
 [1,2,1],
 [3,4,1],
 ];
+
 docente[0] = 1;
 docente[1] = 0;
 docente[2] = 3;
@@ -56,3 +57,4 @@ disciplina[1] = 1; // biologia
 disciplina[2] = 1; //química
 disciplina[3] = 2; // física
 disciplina[4] = 0; //literatura - nenhum docente dando aula.
+```
