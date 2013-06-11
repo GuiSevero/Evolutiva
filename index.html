@@ -105,7 +105,7 @@
       <hr>
       <br>
       <div class="row">
-			<a href="#" id="start" class="btn  span12">Iniciar</a>
+			<a id="start" class="btn  span12">Iniciar</a>
       </div>  
 
 		</form>
@@ -125,9 +125,12 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery-1.10.1.min.js"></script>
     <script src="js/bootstrap.js"></script>    
+    <script src="js/ga.js"></script>
+    <script src="js/cromossomo.js"></script>
     <script type="text/javascript">	
 
     var genes = Array();
+    var ga = new GA();
 
 
 		$('#range').change(function(){
@@ -166,12 +169,10 @@
             professor:  $('#txtProf').val(),
             creditos: $('#nro_aulas').val()
           })
-            
+
         }
           
-
-        console.log(genes);
-
+          
         //Reseta os valores
         $('#txtDisciplina').val('');
         $('#txtProf').val('');
@@ -182,12 +183,10 @@
       
     });
 
-
-    
-
-
-   
-
+    $('#start').click(function(){
+      ga.gens = genes;
+      ga.generatePop();
+    });
 
     </script>
 
