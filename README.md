@@ -27,8 +27,8 @@ Definiu-se o seguinte cronograma para o desenvolvimento das atividades, as quais
 * Estrutura de dados e função de fitness 28/05
 * Interface gráfica permitindo parametrização 04/06
 * Implementação e escolha de operadores 11/06
-* Análise de resultados 18/06
-* Relatório e escrita de artigo 02/07
+* Análise de resultados 20/06
+* Relatório e escrita de artigo 04/07
 
 Estrutura de Dados
 ------
