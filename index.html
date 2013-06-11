@@ -75,10 +75,32 @@
       <hr>
 
       <div class="controls controls-row">
-        <input class="span4" type="text" placeholder="Professor(a)" id="txtProf">
-        <input class="span4" type="text" placeholder="Disciplina" id="txtDisciplina">
-        <a class="span1 btn btn-info" id="btnAddProf" class="btn btn-primary">Adicionar</a>
+        
+        <input type="text" placeholder="Professor(a)" id="txtProf" required>
+        <b>Professor</b><br>
+
+        
+        <input type="text" placeholder="Disciplina" id="txtDisciplina" required>
+        <b>Disciplina</b><br>
+
+        
+        <input type="number" id="nro_aulas" min="2" max="8" value="2" step="2">
+        <b>Créditos</b><br>
+        <a class="btn btn-info" id="btnAddProf" class="btn btn-primary">Adicionar</a>
       </div>
+      <hr>
+
+      <div span="12">
+    <table class="table table table-bordered table-striped table-hover " id="table-prof">
+      <thead>
+        <th>Professor</th>
+        <th>Disciplina</th>
+        <th>Créditos</th>
+      </thead>
+      
+      
+    </table>
+    </div>
 
       <hr>
       <br>
@@ -88,16 +110,7 @@
 
 		</form>
 
-    <div span="12">
-    <table class="table table table-bordered table-striped table-hover " id="table-prof">
-      <thead>
-        <th>Professor</th>
-        <th>Disciplina</th>
-      </thead>
-      
-      
-    </table>
-    </div>
+    
 
     <h3>Saída</h3>
 		<div id="result" class="well">
@@ -113,6 +126,9 @@
     <script src="js/jquery-1.10.1.min.js"></script>
     <script src="js/bootstrap.js"></script>    
     <script type="text/javascript">	
+
+    var genes = Array();
+
 
 		$('#range').change(function(){
 
@@ -135,11 +151,31 @@
         + $('#txtProf').val() 
         + '</td><td>'
         + $('#txtDisciplina').val()
+        + '</td><td>'
+        + $('#nro_aulas').val()
         + "</td></tr>"
         );  
 
+        
+
+        //Adiciona o gen
+        for(i=0; i < $('#nro_aulas').val() /2 ;i++ ){
+
+            genes.push({
+            disciplina: $('#txtDisciplina').val(),
+            professor:  $('#txtProf').val(),
+            creditos: $('#nro_aulas').val()
+          })
+            
+        }
+          
+
+        console.log(genes);
+
+        //Reseta os valores
         $('#txtDisciplina').val('');
         $('#txtProf').val('');
+         
       }else{
         alert('Preencha Professor e Disciplina');
       }
@@ -147,7 +183,21 @@
     });
 
 
+    
+
+
+   
+
+
     </script>
 
 </body>
 </html>
+
+<!--
+
+// Adicionar limite por número de gerações
+// Tipo de cross-over?
+// Limite por tempo
+
+-->
