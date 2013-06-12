@@ -56,11 +56,11 @@
 
       <label for="pop-inicial"><b>População Inicial</b></label>
       <div class="input-prepend input-append">
-        <span class="add-on">100</span>
-        <input class="span4" id="range" type="range" min="100" max="10000" value="500">        
-        <span class="add-on">10.000</span>
+        <span class="add-on">10</span>
+        <input class="span4" id="range" type="range" min="10" max="300" value="50" step="1">        
+        <span class="add-on">300</span>
       </div>
-      <input type="number" class="span2" id="pop-inicial" min="100" max="10000" value="500"><br>
+      <input type="number" class="span2" id="pop-inicial" min="10" max="300" value="50"><br>
 
       <hr>
 
@@ -129,19 +129,20 @@
     <script src="js/cromossomo.js"></script>
     <script type="text/javascript">	
 
-    var genes = Array();
     var ga = new GA();
 
 
 		$('#range').change(function(){
 
 					$('#pop-inicial').val($(this).val());
+          ga.populationSize = $(this).val();
 					
 		})
 
       $('#range-mutation').change(function(){
 
           $('#taxa-mutacao').val($(this).val());
+          ga.mutationRate = $(this).val();
           
     })
 
@@ -164,7 +165,7 @@
         //Adiciona o gen
         for(i=0; i < $('#nro_aulas').val() /2 ;i++ ){
 
-            genes.push({
+            ga.gens.push({
             disciplina: $('#txtDisciplina').val(),
             professor:  $('#txtProf').val(),
             creditos: $('#nro_aulas').val()
@@ -184,8 +185,10 @@
     });
 
     $('#start').click(function(){
-      ga.gens = genes;
+
       ga.generatePop();
+      ga.run();
+
     });
 
     </script>
