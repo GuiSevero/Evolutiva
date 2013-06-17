@@ -15,7 +15,6 @@ function GA(){
 	this.num_horarios = 4 * 7; 
 	this.canStop = false;
 
-
 	this.generatePop = function(){
 
 		for(i=0; i < this.populationSize; i++){

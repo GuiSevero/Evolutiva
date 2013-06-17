@@ -60,7 +60,27 @@ function Cromossomo(num_horarios){
 	};
 
 	//Avalia o cromossomo
-	this.eval = function(){};
+	this.eval = function(){
+		var professoresMesmoHorario = 0; 	//hard constraint
+		var janelaProfessores = 0; 		//soft constraint
+		var pesoProfessores = 50;
+		var pesoJanela = 10;
+		
+		for(var i=0, i < this.horarios.length, i++){
+			var professores = [];
+			professor = false;
+			
+			for(var gen in this.horarios[i]){
+				if(professores.indexOf(gen.professor) >= 0){
+					professoresMesmoHorario++;
+				}
+				professores.push(gen.professor);
+			}
+		}
+		
+		
+		this.val = professoresMesmoHorario * pesoProfessores;
+	};
 
 	//Troca gens de lugar
 	this.swap = function(){};
