@@ -59,14 +59,14 @@ function Cromossomo(num_horarios){
 		return this;
 	};
 
-	//Avalia o cromossomo
+	//Avalia o cromossomo - Não testei mas acho que funciona - X=D
 	this.eval = function(){
 		var professoresMesmoHorario = 0; 	//hard constraint
 		var janelaProfessores = 0; 		//soft constraint
 		var pesoProfessores = 50;
 		var pesoJanela = 10;
 		
-		for(var i=0, i < this.horarios.length, i++){
+		for(var i=0; i < this.horarios.length; i++){
 			var professores = [];
 			professor = false;
 			
