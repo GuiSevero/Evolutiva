@@ -1,0 +1,48 @@
+[
+	{
+		"professor": "Miguel"	
+	  , "disciplina": "Matematica"
+	}
+,
+
+	{
+		"professor": "Antonio"	
+	  , "disciplina": "Fisica"
+	}
+,
+	{
+		"professor": "Alberto"	
+	  , "disciplina": "Quimica"
+	}
+,
+	{
+		"professor": "Rafael"	
+	  , "disciplina": "Biologia"
+	}
+,
+	{
+		"professor": "Miguel"	
+	  , "disciplina": "Fisica"
+	}
+,
+	{
+		"professor": "Alberto"	
+	  , "disciplina": "Matematica"
+	}
+,
+	{
+		"professor": "Rafael"	
+	  , "disciplina": "Quimica"
+	}
+,
+	{
+		"professor": "Antonio"	
+	  , "disciplina": "Biologia"
+	}
+,
+	{
+		"professor": "Rafael"	
+	  , "disciplina": "Matematica"
+	}
+
+]

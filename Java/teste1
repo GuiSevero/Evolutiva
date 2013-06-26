@@ -1,0 +1,96 @@
+Algoritmo Genético
+Arquivo: teste2.json
+Melhor valor encontrado: 
+
+0
+Tempo máximo em minutos: 1
+
+Algoritmo iniciou em: 
+
+11:28:53
+Melhor solução em: 
+
+11:28:53
+Número de cromossosmos: 180
+Número de cromossosmos iniciais: 25
+Tamanho da elite: 25
+Melhor solução encontrada: 
+
+Classes: 0
+--[0][4]---------
+professor: Raone
+disciplina: Sociologia
+-----------
+--[1][0]---------
+professor: Raone
+disciplina: Sociologia
+-----------
+--[2][2]---------
+professor: J. Christian
+disciplina: Teatro
+-----------
+--[2][4]---------
+professor: Lipatin
+disciplina: Ingles
+-----------
+--[3][3]---------
+professor: J. Christian
+disciplina: Teatro
+-----------
+--[5][2]---------
+professor: Gabiru
+disciplina: Teatro
+-----------
+--[7][0]---------
+professor: Raone
+disciplina: Artes
+-----------
+--[8][2]---------
+professor: Lipatin
+disciplina: Sociologia
+-----------
+--[8][4]---------
+professor: J. Christian
+disciplina: Ingles
+-----------
+--[11][0]---------
+professor: Raone
+disciplina: Redacao
+-----------
+--[12][0]---------
+professor: Hidalgo
+disciplina: Redacao
+-----------
+--[12][1]---------
+professor: Lipatin
+disciplina: Ingles
+-----------
+--[13][3]---------
+professor: J. Christian
+disciplina: Ingles
+-----------
+--[14][2]---------
+professor: Raone
+disciplina: Redacao
+-----------
+--[15][0]---------
+professor: Lipatin
+disciplina: Sociologia
+-----------
+--[15][4]---------
+professor: Raone
+disciplina: Redacao
+-----------
+--[17][1]---------
+professor: Lipatin
+disciplina: Sociologia
+-----------
+--[17][3]---------
+professor: J. Christian
+disciplina: Teatro
+-----------
+--[18][4]---------
+professor: J. Christian
+disciplina: Teatro
+-----------
+Valor: 0
