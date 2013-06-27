@@ -315,12 +315,13 @@ public class Cromossomo implements Comparable<Cromossomo> {
 	    
 		public void FitnessFunction(){
 			int teachersSameTime = 0; 	//hard constraint
-			int teachersWindows = 0; 		//soft constraint
+			int teachersCrash = 0;		//hard constraint
+			int teachersWindows = 0; 	//soft constraint
 			int teacherWorth = 50;
+			int crashWorth = 80;
 			int windowWorth = 10;
 			int hasTeacher = -1;
-			
-			//Teachers at the same class time		
+					
 			ArrayList<String> teachers = new ArrayList<String>();
 			
 			for(int k=0; k < 100; k++){
@@ -332,24 +333,30 @@ public class Cromossomo implements Comparable<Cromossomo> {
 				ArrayList<String> teachersTime = new ArrayList<String>();
 				
 				for(int j = 0; j < this._maxTurmaHorario; j++){
-					
-				  if(this._horarios[i][j] != null)	
-					if(teachersTime.indexOf(this._horarios[i][j].professor)>-1){
-						teachersSameTime++;
-					}
+					//Teacher at the same time
+					if(this._horarios[i][j] != null)	
+						if(teachersTime.indexOf(this._horarios[i][j].professor)>-1){
+							teachersSameTime++;
+						}
 					
 				   if(this._horarios[i][j] != null)
 					   hasTeacher = teachers.indexOf(this._horarios[i][j].professor);
 				   else
 					  hasTeacher = -1;
-				   
-					if(hasTeacher > -1){
+				   //Teacher has a window
+				   if(hasTeacher > -1){
 						int diff = i - hasTeacher; 
+						teachers.add(hasTeacher, "-");
 						if(diff > 1 && diff < 5)
 							teachersWindows++;
 						
-					}
-					
+				   }
+				   
+				   if(this._horarios[i][j] != null)
+					   //Teacher can't teach at this time
+					   if(this._horarios[i][j].horariosIndisponiveis.indexOf(i) > -1)
+						   teachersCrash++;
+				   
 					if(this._horarios[i][j] !=null)
 						teachers.add(i, this._horarios[i][j].professor);
 					
@@ -358,7 +365,7 @@ public class Cromossomo implements Comparable<Cromossomo> {
 				}
 			}
 			
-			this._value = teachersSameTime * teacherWorth + teachersWindows * windowWorth;
+			this._value = teachersSameTime * teacherWorth + teachersWindows * windowWorth + teachersCrash * crashWorth;
 		}
 	
 

@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 import json.JSONException;
 import json.JSONObject;
 
@@ -5,6 +7,7 @@ import json.JSONObject;
 public class Gene implements Cloneable{
 		public String professor = "";
 	 	public String disciplina = "";
+	 	public ArrayList<Integer> horariosIndisponiveis;
 	    
 	 	
 	 	public Gene(Object gene) throws JSONException{
