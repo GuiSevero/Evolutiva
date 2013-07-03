@@ -251,7 +251,7 @@ public class AlgoritmoGenetico {
 	        		if(filho[i].getValue() < _melhorSolucao.getValue()){
 		        		_melhorSolucao = filho[i].clone();
 		        		System.out.println("Nova melhor solucao: " + _melhorSolucao.getValue());
-		        		System.out.println("Validade: " + _melhorSolucao.validate());
+		        		System.out.println("Validade: " + _melhorSolucao.isValid());
 		        		_ultimaMelhorSolucaoEncontrada = new java.text.SimpleDateFormat("HH:mm:ss").format(new java.util.Date());
 		        	}
 	        		

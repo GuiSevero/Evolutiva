@@ -1,0 +1,475 @@
+[
+{
+	"professor": "Gabriela" 
+	,"disciplina": "Biologia"
+	,"restricoes": [1,3,4,5,6,7,8,9,10,11,12,13,15,16,17,18,19]
+}
+,
+{
+	"professor": "Fernanda" 
+	,"disciplina": "Fisica"
+	,"restricoes": [3,4,6,7,8,9,10,13,14,15,17,18,19,20]
+}
+,
+{
+	"professor": "Gabriela" 
+	,"disciplina": "Literatura"
+	,"restricoes": [1,6,7,8,10,11,12,13,14,15,16,19,20]
+}
+,
+{
+	"professor": "Daniel" 
+	,"disciplina": "Educacao Artistica"
+	,"restricoes": [1,2,3,4,5,7,8,9,10,11,12,13,15,16,17,18,20]
+}
+,
+{
+	"professor": "Adir" 
+	,"disciplina": "Espanhol"
+	,"restricoes": [2,5,7,8,9,10,11,12,13,14,16,18,19,20]
+}
+,
+{
+	"professor": "Edilcia" 
+	,"disciplina": "Quimica"
+	,"restricoes": [1,2,4,5,6,7,8,10,11,12,13,14,15,16,17,18,19,20]
+}
+,
+{
+	"professor": "Daniel" 
+	,"disciplina": "Redacao"
+	,"restricoes": [1,2,3,4,5,6,7,8,9,11,12,13,14,17,19]
+}
+,
+{
+	"professor": "Daniel" 
+	,"disciplina": "Matematica"
+	,"restricoes": [1,2,3,4,5,6,7,9,10,12,13,14,15,17,18,19,20]
+}
+,
+{
+	"professor": "Geferson" 
+	,"disciplina": "Fisica"
+	,"restricoes": [1,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19,20]
+}
+,
+{
+	"professor": "Fernanda" 
+	,"disciplina": "Portugues"
+	,"restricoes": [1,2,4,5,6,7,8,9,10,11,13,14,16,17,18,19,20]
+}
+,
+{
+	"professor": "Gabriela" 
+	,"disciplina": "Ensino Religioso"
+	,"restricoes": [1,2,5,6,7,8,9,10,11,12,15,16,17,18,19,20]
+}
+,
+{
+	"professor": "Andre" 
+	,"disciplina": "Ingles"
+	,"restricoes": [1,2,3,4,5,6,7,8,10,11,12,13,15,16,17,18,20]
+}
+,
+{
+	"professor": "Geferson" 
+	,"disciplina": "Historia"
+	,"restricoes": [2,3,4,6,7,8,9,11,12,13,14,16,17,18,19]
+}
+,
+{
+	"professor": "Fabiana" 
+	,"disciplina": "Filosofia"
+	,"restricoes": [1,2,6,7,8,9,10,11,12,14,15,17,18]
+}
+,
+{
+	"professor": "Renato" 
+	,"disciplina": "Quimica"
+	,"restricoes": [1,2,3,4,5,7,8,9,10,11,12,13,14,15,16,18,20]
+}
+,
+{
+	"professor": "Edilcia" 
+	,"disciplina": "Sociologia"
+	,"restricoes": [1,2,3,4,5,7,8,9,10,11,12,13,14,15,17,19,20]
+}
+,
+{
+	"professor": "Jefferson" 
+	,"disciplina": "Redacao"
+	,"restricoes": [2,3,4,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+}
+,
+{
+	"professor": "Gabriela" 
+	,"disciplina": "Sociologia"
+	,"restricoes": [1,2,3,4,5,6,7,8,9,11,12,13,15,16,18,19]
+}
+,
+{
+	"professor": "Fabiana" 
+	,"disciplina": "Quimica"
+	,"restricoes": [1,3,4,5,6,8,9,10,11,13,14,15,16,17,18,19,20]
+}
+,
+{
+	"professor": "Renato" 
+	,"disciplina": "Geografia"
+	,"restricoes": [1,2,3,5,6,9,10,11,12,13,14,15,16,17,19,20]
+}
+,
+{
+	"professor": "Maria" 
+	,"disciplina": "Fisica"
+	,"restricoes": [1,3,4,5,6,7,8,10,11,13,14,16,17,18,19]
+}
+,
+{
+	"professor": "Edilcia" 
+	,"disciplina": "Ingles"
+	,"restricoes": [2,4,5,6,7,8,10,11,12,13,14,15,16,17,18]
+}
+,
+{
+	"professor": "Renato" 
+	,"disciplina": "Ensino Religioso"
+	,"restricoes": [1,2,3,4,5,6,7,8,10,11,12,13,14,15,16,17,19,20]
+}
+,
+{
+	"professor": "Maria" 
+	,"disciplina": "Educacao Fisica"
+	,"restricoes": [1,2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,19]
+}
+,
+{
+	"professor": "Jefferson" 
+	,"disciplina": "Educacao Fisica"
+	,"restricoes": [1,2,3,4,5,6,7,8,10,11,12,13,14,15,16,17,18,19,20]
+}
+,
+{
+	"professor": "Andre" 
+	,"disciplina": "Geografia"
+	,"restricoes": [1,3,5,6,7,8,9,10,11,13,14,15,18]
+}
+,
+{
+	"professor": "Marcelo" 
+	,"disciplina": "Literatura"
+	,"restricoes": [1,2,3,5,6,7,8,9,11,12,13,14,15,16,17,18,20]
+}
+,
+{
+	"professor": "Marcelo" 
+	,"disciplina": "Espanhol"
+	,"restricoes": [1,3,4,5,6,7,8,10,11,12,13,14,15,16,17,18,19,20]
+}
+,
+{
+	"professor": "Henrique" 
+	,"disciplina": "Literatura"
+	,"restricoes": [1,2,3,4,5,6,7,8,10,11,13,14,15,16,17,18,19,20]
+}
+,
+{
+	"professor": "Fernanda" 
+	,"disciplina": "Geografia"
+	,"restricoes": [1,4,5,7,8,9,10,11,12,14,15,16,17,18,19,20]
+}
+,
+{
+	"professor": "Jefferson" 
+	,"disciplina": "Matematica"
+	,"restricoes": [1,2,4,5,6,7,8,11,12,13,14,15,16,17,19,20]
+}
+,
+{
+	"professor": "Gabriela" 
+	,"disciplina": "Redacao"
+	,"restricoes": [1,2,3,4,6,7,8,9,12,13,14,15,16,17,19,20]
+}
+,
+{
+	"professor": "Fabiana" 
+	,"disciplina": "Geografia"
+	,"restricoes": [1,2,3,4,5,6,7,8,9,10,11,12,14,15,16,17,18,20]
+}
+,
+{
+	"professor": "Gislaine" 
+	,"disciplina": "Matematica"
+	,"restricoes": [1,2,3,4,5,6,7,11,12,14,15,16,18,19,20]
+}
+,
+{
+	"professor": "Adir" 
+	,"disciplina": "Quimica"
+	,"restricoes": [1,2,3,4,5,6,7,9,10,11,12,13,15,16,17,18,19,20]
+}
+,
+{
+	"professor": "Fernanda" 
+	,"disciplina": "Historia"
+	,"restricoes": [3,4,5,6,7,8,9,10,12,13,14,15,17,18,19]
+}
+,
+{
+	"professor": "Virginia" 
+	,"disciplina": "Matematica"
+	,"restricoes": [2,3,4,6,7,8,9,10,11,13,14,15,16,17,18,20]
+}
+,
+{
+	"professor": "Fernanda" 
+	,"disciplina": "Biologia"
+	,"restricoes": [1,2,3,4,5,6,8,9,10,11,12,13,14,15,16,18,20]
+}
+,
+{
+	"professor": "Gislaine" 
+	,"disciplina": "Sociologia"
+	,"restricoes": [1,2,3,4,7,9,10,11,12,13,14,17,18,20]
+}
+,
+{
+	"professor": "Adir" 
+	,"disciplina": "Biologia"
+	,"restricoes": [2,3,5,6,7,8,9,11,12,14,15,17,18,19,20]
+}
+,
+{
+	"professor": "Gislaine" 
+	,"disciplina": "Redacao"
+	,"restricoes": [1,2,5,6,7,8,9,10,12,14,15,16,17,18,20]
+}
+,
+{
+	"professor": "Edilcia" 
+	,"disciplina": "Educacao Fisica"
+	,"restricoes": [1,2,3,4,5,7,8,10,11,12,16,17,18,19,20]
+}
+,
+{
+	"professor": "Virginia" 
+	,"disciplina": "Portugues"
+	,"restricoes": [1,2,3,4,6,8,9,11,12,13,14,16,17,18,19,20]
+}
+,
+{
+	"professor": "Gislaine" 
+	,"disciplina": "Geografia"
+	,"restricoes": [1,2,3,4,6,7,10,12,14,16,18,19,20]
+}
+,
+{
+	"professor": "Marcelo" 
+	,"disciplina": "Geografia"
+	,"restricoes": [1,2,3,6,7,8,9,10,11,12,13,14,16,17,19,20]
+}
+,
+{
+	"professor": "Renato" 
+	,"disciplina": "Ingles"
+	,"restricoes": [1,2,5,6,7,10,11,12,13,14,15,17,19]
+}
+,
+{
+	"professor": "Virginia" 
+	,"disciplina": "Geografia"
+	,"restricoes": [2,3,4,5,7,8,10,12,14,15,16,17,19,20]
+}
+,
+{
+	"professor": "Jefferson" 
+	,"disciplina": "Literatura"
+	,"restricoes": [1,4,6,7,8,9,10,11,12,13,14,16,17,18,19,20]
+}
+,
+{
+	"professor": "Geferson" 
+	,"disciplina": "Educacao Fisica"
+	,"restricoes": [2,3,4,5,6,7,8,10,11,13,14,15,16,17,18,19,20]
+}
+,
+{
+	"professor": "Marcelo" 
+	,"disciplina": "Sociologia"
+	,"restricoes": [1,3,4,6,7,8,9,10,12,13,14,15,17,18,19,20]
+}
+,
+{
+	"professor": "Gabriela" 
+	,"disciplina": "Ingles"
+	,"restricoes": [1,3,5,6,7,8,9,10,12,13,14,15,16,17,19,20]
+}
+,
+{
+	"professor": "Geferson" 
+	,"disciplina": "Redacao"
+	,"restricoes": [1,2,3,4,5,6,7,8,9,10,11,12,14,15,16,18,19]
+}
+,
+{
+	"professor": "Andre" 
+	,"disciplina": "Filosofia"
+	,"restricoes": [3,4,5,6,7,8,9,11,13,14,15,17,18,19,20]
+}
+,
+{
+	"professor": "Daniel" 
+	,"disciplina": "Filosofia"
+	,"restricoes": [1,2,3,4,7,8,9,11,12,14,16,17,20]
+}
+,
+{
+	"professor": "Henrique" 
+	,"disciplina": "Portugues"
+	,"restricoes": [2,4,5,6,7,8,10,11,13,14,15,17,18,19,20]
+}
+,
+{
+	"professor": "Henrique" 
+	,"disciplina": "Ensino Religioso"
+	,"restricoes": [1,3,4,5,6,7,8,11,12,13,14,16,17,18,19,20]
+}
+,
+{
+	"professor": "Virginia" 
+	,"disciplina": "Literatura"
+	,"restricoes": [1,2,3,4,5,6,7,9,10,12,13,14,15,16,17,18,19,20]
+}
+,
+{
+	"professor": "Fabiana" 
+	,"disciplina": "Fisica"
+	,"restricoes": [2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,19]
+}
+,
+{
+	"professor": "Gabriela" 
+	,"disciplina": "Matematica"
+	,"restricoes": [2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,19]
+}
+,
+{
+	"professor": "Jefferson" 
+	,"disciplina": "Biologia"
+	,"restricoes": [1,2,3,5,6,7,8,9,10,13,14,15,16,17,18,19,20]
+}
+,
+{
+	"professor": "Henrique" 
+	,"disciplina": "Biologia"
+	,"restricoes": [2,5,6,8,9,11,12,13,14,15,16,17,19,20]
+}
+,
+{
+	"professor": "Virginia" 
+	,"disciplina": "Historia"
+	,"restricoes": [1,3,4,6,7,8,9,10,11,13,14,15,16,17,18,19,20]
+}
+,
+{
+	"professor": "Adir" 
+	,"disciplina": "Historia"
+	,"restricoes": [1,2,4,6,7,9,10,11,12,13,14,15,16,17,19,20]
+}
+,
+{
+	"professor": "Fernanda" 
+	,"disciplina": "Espanhol"
+	,"restricoes": [1,2,4,6,8,10,12,13,14,16,17,18,19,20]
+}
+,
+{
+	"professor": "Adir" 
+	,"disciplina": "Filosofia"
+	,"restricoes": [1,3,4,5,6,7,8,9,10,12,13,14,15,16,17,18,19,20]
+}
+,
+{
+	"professor": "Henrique" 
+	,"disciplina": "Ingles"
+	,"restricoes": [1,2,3,4,5,7,8,9,10,12,13,14,15,16,18,19,20]
+}
+,
+{
+	"professor": "Fernanda" 
+	,"disciplina": "Redacao"
+	,"restricoes": [1,2,3,4,5,6,7,8,9,12,13,14,15,16,19,20]
+}
+,
+{
+	"professor": "Gabriela" 
+	,"disciplina": "Ciencias"
+	,"restricoes": [1,2,4,5,6,7,8,9,10,11,12,15,16,17,18,19,20]
+}
+,
+{
+	"professor": "Gislaine" 
+	,"disciplina": "Historia"
+	,"restricoes": [1,2,3,4,5,6,9,10,12,13,14,15,17,18,19,20]
+}
+,
+{
+	"professor": "Daniel" 
+	,"disciplina": "Portugues"
+	,"restricoes": [1,3,4,5,6,7,8,9,10,14,15,16,18,20]
+}
+,
+{
+	"professor": "Fabiana" 
+	,"disciplina": "Redacao"
+	,"restricoes": [1,3,4,6,8,9,12,13,16,17,18,19,20]
+}
+,
+{
+	"professor": "Andre" 
+	,"disciplina": "Educacao Artistica"
+	,"restricoes": [2,3,4,5,6,7,8,9,10,11,12,14,15,16,17,18,19,20]
+}
+,
+{
+	"professor": "Adir" 
+	,"disciplina": "Fisica"
+	,"restricoes": [2,3,4,5,6,7,9,10,11,12,13,14,15,16,17,18,20]
+}
+,
+{
+	"professor": "Henrique" 
+	,"disciplina": "Quimica"
+	,"restricoes": [2,3,4,6,8,12,13,14,15,16,19,20]
+}
+,
+{
+	"professor": "Gabriela" 
+	,"disciplina": "Educacao Fisica"
+	,"restricoes": [2,3,4,5,6,7,8,9,10,11,12,13,15,16,17,18,19,20]
+}
+,
+{
+	"professor": "Gabriela" 
+	,"disciplina": "Geografia"
+	,"restricoes": [1,2,4,5,6,7,8,9,10,11,12,13,14,15,16,18,19,20]
+}
+,
+{
+	"professor": "Gislaine" 
+	,"disciplina": "Educacao Artistica"
+	,"restricoes": [1,2,3,6,9,11,13,14,15,16,17,18,19]
+}
+,
+{
+	"professor": "Marcelo" 
+	,"disciplina": "Historia"
+	,"restricoes": [1,2,3,5,6,8,9,11,14,15,16,17,18,19,20]
+}
+,
+{
+	"professor": "Virginia" 
+	,"disciplina": "Ciencias"
+	,"restricoes": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+}
+]

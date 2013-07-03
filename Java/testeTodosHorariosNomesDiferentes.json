@@ -1,0 +1,565 @@
+[
+	{
+		"professor": "André Catimba Catimba"	
+		,"disciplina": "Ciências"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,10,11,12,13,19,20]
+	}
+,
+	{
+		"professor": "André Catimba Catimba"	
+		,"disciplina": "Ciências"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,10,11,12,13,19,20]
+	}
+,
+	{
+		"professor": "André Catimba"	
+		,"disciplina": "Educação Artística"
+		,"restricoes": [3,4,5,6,7,8,12,15,16,17]
+	}
+,
+	{
+		"professor": "André Catimba"	
+		,"disciplina": "Educação Artística"
+		,"restricoes": [3,4,5,6,7,8,12,15,16,17]
+	}
+,
+	{
+		"professor": "André Catimba"	
+		,"disciplina": "Educação Artística"
+		,"restricoes": [3,4,5,6,7,8,12,15,16,17]
+	}
+,
+	{
+		"professor": "André Catimba"	
+		,"disciplina": "Educação Artística"
+		,"restricoes": [3,4,5,6,7,8,12,15,16,17]
+	}
+,
+	{
+		"professor": "André Catimba"	
+		,"disciplina": "Educação Artística"
+		,"restricoes": [3,4,5,6,7,8,12,15,16,17]
+	}
+,
+	{
+		"professor": "Rivaldo"	
+		,"disciplina": "Educação Física"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,10,11,12,14,15,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Marta Joga10"	
+		,"disciplina": "Espanhol"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+	}
+,
+	{
+		"professor": "Marta Joga10"	
+		,"disciplina": "Espanhol"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+	}
+,
+	{
+		"professor": "Marta Joga10"	
+		,"disciplina": "Espanhol"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+	}
+,
+	{
+		"professor": "Magic Paula"	
+		,"disciplina": "Filosofia"
+		,"restricoes": [1,2,3,4,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Pedro Junior"	
+		,"disciplina": "Fisica"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,10,11,12,13,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Pedro Junior"	
+		,"disciplina": "Fisica"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,10,11,12,13,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Mike Tayson"	
+		,"disciplina": "Geografia"
+		,"restricoes": [2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
+	}
+,
+	{
+		"professor": "Mike Tayson"	
+		,"disciplina": "Geografia"
+		,"restricoes": [2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
+	}
+,
+	{
+		"professor": "Pelé"	
+		,"disciplina": "História"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,10,13,14,15,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Pelé"	
+		,"disciplina": "História"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,10,13,14,15,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Maradona"	
+		,"disciplina": "Inglês"
+		,"restricoes": [1,2,3,4,17,18,19,20]
+	}
+,
+	{
+		"professor": "Maradona"	
+		,"disciplina": "Inglês"
+		,"restricoes": [1,2,3,4,17,18,19,20]
+	}
+,
+	{
+		"professor": "Maradona"	
+		,"disciplina": "Inglês"
+		,"restricoes": [1,2,3,4,17,18,19,20]
+	}
+,
+	{
+		"professor": "Maradona"	
+		,"disciplina": "Inglês"
+		,"restricoes": [1,2,3,4,17,18,19,20]
+	}
+,
+	{
+		"professor": "Maradona"	
+		,"disciplina": "Inglês"
+		,"restricoes": [1,2,3,4,17,18,19,20]
+	}
+,
+	{
+		"professor": "Maradona"	
+		,"disciplina": "Inglês"
+		,"restricoes": [1,2,3,4,17,18,19,20]
+	}
+,
+	{
+		"professor": "Luis Inácia Lula da Silva"	
+		,"disciplina": "Literatura"
+		,"restricoes": [6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Luis Inácia Lula da Silva"	
+		,"disciplina": "Literatura"
+		,"restricoes": [6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Jefferson"	
+		,"disciplina": "Matematica"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
+	}
+,
+	{
+		"professor": "Jefferson"	
+		,"disciplina": "Matematica"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
+	}
+,
+	{
+		"professor": "Jefferson"	
+		,"disciplina": "Matematica"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
+	}
+,
+	{
+		"professor": "Ronaldo Fenômeno"	
+		,"disciplina": "Português"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,10,11,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Ronaldo Fenômeno"	
+		,"disciplina": "Português"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,10,11,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Maicon Jordan"	
+		,"disciplina": "Quimica"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,13,14,15,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Protestante Baderneiro"	
+		,"disciplina": "Redação"
+		,"restricoes": [1,2,3,4,5,6,7,8,10,11,12,13,14,15,16,17,19,20]
+	}
+,
+	{
+		"professor": "Michael Jackson"	
+		,"disciplina": "Ensino Religioso"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,10,11,12,13,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Edir Macedo"	
+		,"disciplina": "Matematica"
+		,"restricoes": [1,2,3,4,10,11,12,13,14,15,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Edir Macedo"	
+		,"disciplina": "Matematica"
+		,"restricoes": [1,2,3,4,10,11,12,13,14,15,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Edir Macedo"	
+		,"disciplina": "Matematica"
+		,"restricoes": [1,2,3,4,10,11,12,13,14,15,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Edir Macedo"	
+		,"disciplina": "Matematica"
+		,"restricoes": [1,2,3,4,10,11,12,13,14,15,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Rivaldo"	
+		,"disciplina": "Quimica"
+		,"restricoes": [1,2,3,4,5,10,11,12,13,14,15,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Rivaldo"	
+		,"disciplina": "Quimica"
+		,"restricoes": [1,2,3,4,5,10,11,12,13,14,15,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Rivaldo"	
+		,"disciplina": "Quimica"
+		,"restricoes": [1,2,3,4,5,10,11,12,13,14,15,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Rivaldo"	
+		,"disciplina": "Quimica"
+		,"restricoes": [1,2,3,4,5,10,11,12,13,14,15,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Maicon Jordan"	
+		,"disciplina": "Espanhol"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,10,11,12,13,20]
+	}
+,
+	{
+		"professor": "Maicon Jordan"	
+		,"disciplina": "Espanhol"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,10,11,12,13,20]
+	}
+,
+	{
+		"professor": "Maicon Jordan"	
+		,"disciplina": "Espanhol"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,10,11,12,13,20]
+	}
+,
+	{
+		"professor": "André Catimba"	
+		,"disciplina": "Geografia"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,10,11,12,13,14]
+	}
+,
+	{
+		"professor": "André Catimba"	
+		,"disciplina": "Geografia"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,10,11,12,13,14]
+	}
+,
+	{
+		"professor": "Luis Inácia Lula da Silva"	
+		,"disciplina": "Ciências"
+		,"restricoes": [5,6,7,14,15,16,17,18]
+	}
+,
+	{
+		"professor": "Luis Inácia Lula da Silva"	
+		,"disciplina": "Ciências"
+		,"restricoes": [5,6,7,14,15,16,17,18]
+	}
+,
+	{
+		"professor": "Luis Inácia Lula da Silva"	
+		,"disciplina": "Ciências"
+		,"restricoes": [5,6,7,14,15,16,17,18]
+	}
+,
+	{
+		"professor": "Luis Inácia Lula da Silva"	
+		,"disciplina": "Ciências"
+		,"restricoes": [5,6,7,14,15,16,17,18]
+	}
+,
+	{
+		"professor": "Luis Inácia Lula da Silva"	
+		,"disciplina": "Ciências"
+		,"restricoes": [5,6,7,14,15,16,17,18]
+	}
+,
+	{
+		"professor": "Luis Inácia Lula da Silva"	
+		,"disciplina": "Ciências"
+		,"restricoes": [5,6,7,14,15,16,17,18]
+	}
+,
+	{
+		"professor": "Luis Inácia Lula da Silva"	
+		,"disciplina": "Ciências"
+		,"restricoes": [5,6,7,14,15,16,17,18]
+	}
+,
+	{
+		"professor": "Jefferson"	
+		,"disciplina": "Biologia"
+		,"restricoes": [1,2,3,9,10,11,12,13,18,19,20]
+	}
+,
+	{
+		"professor": "Jefferson"	
+		,"disciplina": "Biologia"
+		,"restricoes": [1,2,3,9,10,11,12,13,18,19,20]
+	}
+,
+	{
+		"professor": "Jefferson"	
+		,"disciplina": "Biologia"
+		,"restricoes": [1,2,3,9,10,11,12,13,18,19,20]
+	}
+,
+	{
+		"professor": "Maradona"	
+		,"disciplina": "Educação Artística"
+		,"restricoes": [1,2,3,4,5,6,7,8,12,13,14,15,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Maradona"	
+		,"disciplina": "Educação Artística"
+		,"restricoes": [1,2,3,4,5,6,7,8,12,13,14,15,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Magic Paula"	
+		,"disciplina": "Ensino Religioso"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,19,20]
+	}
+,
+	{
+		"professor": "Magic Paula"	
+		,"disciplina": "Ensino Religioso"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,19,20]
+	}
+,
+	{
+		"professor": "Protestante Baderneiro"	
+		,"disciplina": "Fisica"
+		,"restricoes": [1,2,3,4,11,12,13,14,15,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Protestante Baderneiro"	
+		,"disciplina": "Fisica"
+		,"restricoes": [1,2,3,4,11,12,13,14,15,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Protestante Baderneiro"	
+		,"disciplina": "Fisica"
+		,"restricoes": [1,2,3,4,11,12,13,14,15,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Protestante Baderneiro"	
+		,"disciplina": "Fisica"
+		,"restricoes": [1,2,3,4,11,12,13,14,15,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Mike Tayson"	
+		,"disciplina": "Sociologia"
+		,"restricoes": [1,20]
+	}
+,
+	{
+		"professor": "Mike Tayson"	
+		,"disciplina": "Sociologia"
+		,"restricoes": [1,20]
+	}
+,
+	{
+		"professor": "Mike Tayson"	
+		,"disciplina": "Sociologia"
+		,"restricoes": [1,20]
+	}
+,
+	{
+		"professor": "Mike Tayson"	
+		,"disciplina": "Sociologia"
+		,"restricoes": [1,20]
+	}
+,
+	{
+		"professor": "Mike Tayson"	
+		,"disciplina": "Sociologia"
+		,"restricoes": [1,20]
+	}
+,
+	{
+		"professor": "Mike Tayson"	
+		,"disciplina": "Ciências"
+		,"restricoes": [1,2,3,4,5,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Mike Tayson"	
+		,"disciplina": "Ciências"
+		,"restricoes": [1,2,3,4,5,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Mike Tayson"	
+		,"disciplina": "Ciências"
+		,"restricoes": [1,2,3,4,5,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Mike Tayson"	
+		,"disciplina": "Ciências"
+		,"restricoes": [1,2,3,4,5,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Mike Tayson"	
+		,"disciplina": "Ciências"
+		,"restricoes": [1,2,3,4,5,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Mike Tayson"	
+		,"disciplina": "Ciências"
+		,"restricoes": [1,2,3,4,5,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Mike Tayson"	
+		,"disciplina": "Ciências"
+		,"restricoes": [1,2,3,4,5,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Mike Tayson"	
+		,"disciplina": "Ciências"
+		,"restricoes": [1,2,3,4,5,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Marta Joga10"	
+		,"disciplina": "História"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,14,15,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Marta Joga10"	
+		,"disciplina": "História"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,14,15,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Marta Joga10"	
+		,"disciplina": "História"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,14,15,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Marta Joga10"	
+		,"disciplina": "História"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,14,15,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Edir Macedo"	
+		,"disciplina": "Redação"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,20]
+	}
+,
+	{
+		"professor": "Edir Macedo"	
+		,"disciplina": "Redação"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,20]
+	}
+,
+	{
+		"professor": "Edir Macedo"	
+		,"disciplina": "Redação"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,20]
+	}
+,
+	{
+		"professor": "Michael Jackson"	
+		,"disciplina": "Biologia"
+		,"restricoes": [1,2,3,10,11,12,13,14,15,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Michael Jackson"	
+		,"disciplina": "Biologia"
+		,"restricoes": [1,2,3,10,11,12,13,14,15,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Michael Jackson"	
+		,"disciplina": "Biologia"
+		,"restricoes": [1,2,3,10,11,12,13,14,15,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Magic Paula"	
+		,"disciplina": "Português"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,10,11,12,13,19,20]
+	}
+,
+	{
+		"professor": "Magic Paula"	
+		,"disciplina": "Português"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,10,11,12,13,19,20]
+	}
+,
+	{
+		"professor": "Magic Paula"	
+		,"disciplina": "Português"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,10,11,12,13,19,20]
+	}
+,
+	{
+		"professor": "Magic Paula"	
+		,"disciplina": "Português"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,10,11,12,13,19,20]
+	}
+,
+	{
+		"professor": "Rivaldo"	
+		,"disciplina": "Matemática"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,10,11,16,17,18,19,20]
+	}
+,
+	{
+		"professor": "Rivaldo"	
+		,"disciplina": "Matemática"
+		,"restricoes": [1,2,3,4,5,6,7,8,9,10,11,16,17,18,19,20]
+	}
+]

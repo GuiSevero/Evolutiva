@@ -1,48 +1,301 @@
 [
-	{
-		"professor": "Miguel"	
-	  , "disciplina": "Matematica"
-	}
+{
+	"professor": "Marcelo" 
+	,"disciplina": "Filosofia"
+	,"restricoes": []
+}
 ,
-
-	{
-		"professor": "Antonio"	
-	  , "disciplina": "Fisica"
-	}
+{
+	"professor": "Fabiana" 
+	,"disciplina": "Redacao"
+	,"restricoes": []
+}
 ,
-	{
-		"professor": "Alberto"	
-	  , "disciplina": "Quimica"
-	}
+{
+	"professor": "Virginia" 
+	,"disciplina": "Sociologia"
+	,"restricoes": []
+}
 ,
-	{
-		"professor": "Rafael"	
-	  , "disciplina": "Biologia"
-	}
+{
+	"professor": "Edilcia" 
+	,"disciplina": "Sociologia"
+	,"restricoes": []
+}
 ,
-	{
-		"professor": "Miguel"	
-	  , "disciplina": "Fisica"
-	}
+{
+	"professor": "Geferson" 
+	,"disciplina": "Ciencias"
+	,"restricoes": []
+}
 ,
-	{
-		"professor": "Alberto"	
-	  , "disciplina": "Matematica"
-	}
+{
+	"professor": "Fernanda" 
+	,"disciplina": "Literatura"
+	,"restricoes": []
+}
 ,
-	{
-		"professor": "Rafael"	
-	  , "disciplina": "Quimica"
-	}
+{
+	"professor": "Andre" 
+	,"disciplina": "Redacao"
+	,"restricoes": []
+}
 ,
-	{
-		"professor": "Antonio"	
-	  , "disciplina": "Biologia"
-	}
+{
+	"professor": "Andre" 
+	,"disciplina": "Ensino Religioso"
+	,"restricoes": []
+}
 ,
-	{
-		"professor": "Rafael"	
-	  , "disciplina": "Matematica"
-	}
-
+{
+	"professor": "Jefferson" 
+	,"disciplina": "Historia"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Maria" 
+	,"disciplina": "Quimica"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Gabriela" 
+	,"disciplina": "Ciencias"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Daniel" 
+	,"disciplina": "Biologia"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Geferson" 
+	,"disciplina": "Fisica"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Gabriela" 
+	,"disciplina": "Sociologia"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Gislaine" 
+	,"disciplina": "Filosofia"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Daniel" 
+	,"disciplina": "Biologia"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Marcelo" 
+	,"disciplina": "Portugues"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Henrique" 
+	,"disciplina": "Filosofia"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Daniel" 
+	,"disciplina": "Biologia"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Jefferson" 
+	,"disciplina": "Biologia"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Gislaine" 
+	,"disciplina": "Matematica"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Daniel" 
+	,"disciplina": "Filosofia"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Edilcia" 
+	,"disciplina": "Fisica"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Gabriela" 
+	,"disciplina": "Literatura"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Gislaine" 
+	,"disciplina": "Biologia"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Daniel" 
+	,"disciplina": "Educacao Artistica"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Geferson" 
+	,"disciplina": "Ensino Religioso"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Maria" 
+	,"disciplina": "Geografia"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Gislaine" 
+	,"disciplina": "Biologia"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Fabiana" 
+	,"disciplina": "Quimica"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Andre" 
+	,"disciplina": "Ingles"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Fernanda" 
+	,"disciplina": "Fisica"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Edilcia" 
+	,"disciplina": "Sociologia"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Jefferson" 
+	,"disciplina": "Biologia"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Fabiana" 
+	,"disciplina": "Espanhol"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Marcelo" 
+	,"disciplina": "Filosofia"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Fernanda" 
+	,"disciplina": "Redacao"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Jefferson" 
+	,"disciplina": "Sociologia"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Gabriela" 
+	,"disciplina": "Historia"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Edilcia" 
+	,"disciplina": "Portugues"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Henrique" 
+	,"disciplina": "Ingles"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Henrique" 
+	,"disciplina": "Quimica"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Gabriela" 
+	,"disciplina": "Historia"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Andre" 
+	,"disciplina": "Ensino Religioso"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Marcelo" 
+	,"disciplina": "Ingles"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Henrique" 
+	,"disciplina": "Educacao Fisica"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Marcelo" 
+	,"disciplina": "Ciencias"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Daniel" 
+	,"disciplina": "Sociologia"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Gislaine" 
+	,"disciplina": "Historia"
+	,"restricoes": []
+}
+,
+{
+	"professor": "Henrique" 
+	,"disciplina": "Biologia"
+	,"restricoes": []
+}
 ]

@@ -20,7 +20,7 @@ public class Main {
     	if(args.length == 3)
     			testExecutar(args[0], "res_" + args[0], Integer.parseInt(args[1]), Integer.parseInt(args[2]));
     	else
-    		testExecutar("teste1.json", "test1_result",20, 1);
+    		testExecutar("teste3.json", "test1_result",20, 1);
     }
     
     

@@ -135,7 +135,7 @@ public class Cromossomo implements Comparable<Cromossomo> {
 	    JSONArray jsonGenes = new JSONArray(jt);
 	    
 	    if(jsonGenes.length() > this._numHorarios * this._maxTurmaHorario){
-	    	throw new NumClassesOverFlow("Numero de aulas excedido");
+	    	throw new NumClassesOverFlow("Numero de aulas excedido: " + jsonGenes.length() + " / " + this._numHorarios * this._maxTurmaHorario);
 	    }
 	    
 	    
@@ -155,14 +155,17 @@ public class Cromossomo implements Comparable<Cromossomo> {
         	 
         	 //Adiciona na lista de genes
         	 this._genes.add(g);
-        	 
+        	 boolean canBreak = false;
         	//Coloca o gene na posicao sorteada
-        	 for(int j=0; j < this._maxTurmaHorario; j++ ){
-        		 if(this._horarios[target][j] == null){
-        			 this._horarios[target][j] = g;
-        			 break;
-        		 }
-        			 
+        	 for(int k=0; k < this._numHorarios; k++ ){
+	        	 for(int j=0; j < this._maxTurmaHorario; j++ ){
+	        		 if(this._horarios[k][j] == null){
+	        			 this._horarios[k][j] = g;
+	        			 canBreak = true;
+	        		 }
+	        			 
+	        	 }
+	        	 if(canBreak) break;
         	 }
         	
         }
@@ -183,8 +186,8 @@ public class Cromossomo implements Comparable<Cromossomo> {
 				  if(this._horarios[i][j] != null)
 					  c._horarios[i][j] = this._horarios[i][j].clone();
 			  }
-		  c.eval();
 		  
+		  c.eval();
 		 return c;
 	 }
 	 
@@ -223,7 +226,7 @@ public class Cromossomo implements Comparable<Cromossomo> {
 		 
 		 buf.append("<dl>");
 		 for(int i=0; i < this._numHorarios; i++){
-			 buf.append("<dt>" + hNames.get(i) + "</dt>");
+			 buf.append("<dt> " + i + " - " + hNames.get(i) + "</dt>");
 			 found = false;
 			 for(int j=0; j < this._maxTurmaHorario; j++){
 				 //Append do cromossomo i,j
@@ -305,15 +308,23 @@ public class Cromossomo implements Comparable<Cromossomo> {
 	                return this;
 	    }
 	    
-	    protected boolean validate(){
+	    /**
+	     * 
+	     * @return
+	     */
+	    protected boolean isValid(){
 	    	
 	    	for(int i=0; i < this._genes.size(); i++){
-	    		if(this.hasGen(this._genes.get(i)) != 1) return false;
+	    		if(this.hasGen(this._genes.get(i)) > 1) return false;
 	    	}
 	    	
 	    	return true;
 	    }
 	    
+	    /**
+	     * 
+	     * @return
+	     */
 	    public int countGenes(){
 	    	int i,j,count = 0;
 	    	for(i=0; i < this._numHorarios; i++)
@@ -332,7 +343,7 @@ public class Cromossomo implements Comparable<Cromossomo> {
 	    public int hasGen(Gene g){
 	    	int count = 0;
 	    	
-	    	if(g == null) return 0;
+	    	//if(g == null) return 0;
 	    	
 	    	for(int i=0; i < this._numHorarios; i++)
 				for(int j=0; j <this._maxTurmaHorario; j++)
@@ -441,10 +452,10 @@ public class Cromossomo implements Comparable<Cromossomo> {
 			
 			
 			this._value = teachersSameTime * teacherWorth + teachersWindows * windowWorth + teachersCrash * crashWorth;
-			
-			if(!this.validate()) this._value += 3000;
+			for(int i=0; i < this._genes.size(); i++){
+				if(this.hasGen(this._genes.get(i)) != 1) this._value += 5;
+	    	}
 			
 		}
-	
 
 }

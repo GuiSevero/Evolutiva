@@ -1,191 +1,58 @@
 [
 	{
-		"professor": "Hidalgo"	
-	  , "disciplina": "Ed. Fisica"
+		"professor": "Miguel"	
+	  , "disciplina": "Matematica"
+	  , "restricoes": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
 	}
 ,
 	{
-		"professor": "Hidalgo"	
-	  , "disciplina": "Sociologia"
+		"professor": "Miguel"	
+	  , "disciplina": "Fisica"
+	  , "restricoes": [2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
+	}
+,
+
+	{
+		"professor": "Antonio"	
+	  , "disciplina": "Fisica"
+	  , "restricoes": [0]
 	}
 ,
 	{
-		"professor": "Hidalgo"	
-	  , "disciplina": "Artes"
+		"professor": "Alberto"	
+	  , "disciplina": "Quimica"
+	  , "restricoes": [1]
 	}
 ,
 	{
-		"professor": "Hidalgo"	
-	  , "disciplina": "Ingles"
+		"professor": "Alberto"	
+	  , "disciplina": "Biologia"
+	  , "restricoes": [1]
+	}
+
+,
+	{
+		"professor": "Alberto"	
+	  , "disciplina": "Matematica"
+	  , "restricoes": [1]
 	}
 ,
 	{
-		"professor": "Hidalgo"	
-	  , "disciplina": "Sociologia"
+		"professor": "Rafael"	
+	  , "disciplina": "Quimica"
+	  , "restricoes": [3]
 	}
 ,
 	{
-		"professor": "Hidalgo"	
-	  , "disciplina": "Redacao"
+		"professor": "Rafael"	
+	  , "disciplina": "Biologia"
+	  , "restricoes": [2]
 	}
 ,
 	{
-		"professor": "Raone"	
-	  , "disciplina": "Redacao"
+		"professor": "Rafael"	
+	  , "disciplina": "Matematica"
+	  , "restricoes": [3]
 	}
-,
-	{
-		"professor": "Raone"	
-	  , "disciplina": "Ed. Fisica"
-	}
-,
-	{
-		"professor": "Raone"	
-	  , "disciplina": "Sociologia"
-	}
-,
-	{
-		"professor": "Raone"	
-	  , "disciplina": "Artes"
-	}
-,
-	{
-		"professor": "Raone"	
-	  , "disciplina": "Artes"
-	}
-,
-	{
-		"professor": "B. Campos"	
-	  , "disciplina": "Religiao"
-	}
-,
-	{
-		"professor": "B. Campos"	
-	  , "disciplina": "Teatro"
-	}
-,
-	{
-		"professor": "B. Campos"	
-	  , "disciplina": "Teatro"
-	}
-,
-	{
-		"professor": "B. Campos"	
-	  , "disciplina": "Teatro"
-	}
-,
-	{
-		"professor": "B. Campos"	
-	  , "disciplina": "Teatro"
-	}
-,
-	{
-		"professor": "B. Campos"	
-	  , "disciplina": "Ingles"
-	}
-,
-	{
-		"professor": "Gabiru"	
-	  , "disciplina": "Teatro"
-	}
-,
-	{
-		"professor": "Gabiru"	
-	  , "disciplina": "Teatro"
-	}
-,
-	{
-		"professor": "Gabiru"	
-	  , "disciplina": "Ingles"
-	}
-,
-	{
-		"professor": "Gabiru"	
-	  , "disciplina": "Ingles"
-	}
-,
-	{
-		"professor": "Gabiru"	
-	  , "disciplina": "Religiao"
-	}
-,
-	{
-		"professor": "Gabiru"	
-	  , "disciplina": "Sociologia"
-	}
-,
-	{
-		"professor": "Gabiru"	
-	  , "disciplina": "Sociologia"
-	}
-,
-	{
-		"professor": "Lipatin"	
-	  , "disciplina": "Ed. Fisica"
-	}
-,
-	{
-		"professor": "Lipatin"	
-	  , "disciplina": "Ingles"
-	}
-,
-	{
-		"professor": "Lipatin"	
-	  , "disciplina": "Artes"
-	}
-,	
-	{
-		"professor": "Lipatin"	
-	  , "disciplina": "Ed. Fisica"
-	}
-,
-	{
-		"professor": "Lipatin"	
-	  , "disciplina": "Sociologia"
-	}
-,
-	{
-		"professor": "J. Christian"	
-	  , "disciplina": "Ingles"
-	}
-,
-	{
-		"professor": "J. Christian"	
-	  , "disciplina": "Artes"
-	}
-,
-	{
-		"professor": "J. Christian"	
-	  , "disciplina": "Artes"
-	}
-,
-	{
-		"professor": "J. Christian"	
-	  , "disciplina": "Religiao"
-	}
-,
-	{
-		"professor": "J. Christian"	
-	  , "disciplina": "Religiao"
-	}
-,
-	{
-		"professor": "J. Christian"	
-	  , "disciplina": "Redacao"
-	}
-,
-	{
-		"professor": "J. Christian"	
-	  , "disciplina": "Sociologia"
-	}
-,
-	{
-		"professor": "J. Christian"	
-	  , "disciplina": "Teatro"
-	}
-,
-	{
-		"professor": "J. Christian"	
-	  , "disciplina": "Teatro"
-	}
+
 ]

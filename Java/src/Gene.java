@@ -37,15 +37,6 @@ public class Gene implements Cloneable{
 	 	}
 	 	
 	 	
-	 	/**
-	 	 * 
-	 	 * @param d - Disciplina
-	 	 * @param p - Professor
-	 	 */
-	 	public Gene(String d, String p){
-	 		this.disciplina = d;
-	 		this.professor = p;
-	 	}
 	 	
 	 	/**
 	 	 * 
