@@ -1,0 +1,134 @@
+Algoritmo Genético
+Arquivo: teste1.json
+Melhor valor encontrado: 
+
+3000
+Tempo máximo em minutos: 1
+
+Algoritmo iniciou em: 
+
+01:55:39
+Melhor solução em: 
+
+01:55:40
+Número de cromossosmos: 110
+Número de cromossosmos iniciais: 25
+Tamanho da elite: 25
+Melhor solução encontrada: 
+
+Classes: 0
+--[0][0]---------
+id: 16
+professor: Edilcia
+disciplina: HistÃ³ria
+restricoes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 14, 15, 16, 17, 18, 19]
+-----------
+--[0][2]---------
+id: 2
+professor: Daniel
+disciplina: CiÃªncias
+restricoes: [1, 2, 3, 4, 9, 10, 11, 12, 17, 18, 19, 20]
+-----------
+--[0][4]---------
+id: 12
+professor: Maria
+disciplina: PortuguÃªs
+restricoes: [1, 2, 4, 5, 6, 7, 8, 11, 12, 14, 15, 17, 18]
+-----------
+--[2][4]---------
+id: 9
+professor: Henrique
+disciplina: FÃ­sica
+restricoes: [1, 4, 5, 6, 7, 10, 14, 15, 16, 17, 18, 19]
+-----------
+--[3][0]---------
+id: 8
+professor: Gislaine
+disciplina: Filosofia
+restricoes: [4, 6, 8, 9, 10, 12, 14, 15, 16, 18]
+-----------
+--[4][4]---------
+id: 11
+professor: Marcelo
+disciplina: QuÃ­mica
+restricoes: [5, 6, 8, 9, 10, 12, 13, 15, 17, 19]
+-----------
+--[7][3]---------
+id: 0
+professor: Adir
+disciplina: Biologia
+restricoes: [4, 5, 6, 8, 9, 11, 12, 13, 14, 15, 16, 17, 19]
+-----------
+--[8][0]---------
+id: 13
+professor: Renato
+disciplina: MatemÃ¡tica
+restricoes: []
+-----------
+--[8][3]---------
+id: 6
+professor: Gabriela
+disciplina: Ensino Religioso
+restricoes: [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+-----------
+--[9][2]---------
+id: 1
+professor: AndrÃ©
+disciplina: EducaÃ§Ã£o Fisica
+restricoes: [1, 2, 3, 4, 5, 6, 15, 16, 17, 18, 19, 20]
+-----------
+--[10][1]---------
+id: 12
+professor: Maria
+disciplina: PortuguÃªs
+restricoes: [1, 2, 4, 5, 6, 7, 8, 11, 12, 14, 15, 17, 18]
+-----------
+--[12][0]---------
+id: 14
+professor: Virginia
+disciplina: Literatura
+restricoes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 13, 14, 15, 16]
+-----------
+--[12][3]---------
+id: 20
+professor: Geferson
+disciplina: Geografia
+restricoes: [1, 6, 14, 16, 17, 18, 19]
+-----------
+--[13][2]---------
+id: 7
+professor: Geferson
+disciplina: RedaÃ§Ã£o
+restricoes: [1, 2, 5, 6, 7, 11, 12, 14, 15, 16, 18, 19]
+-----------
+--[14][4]---------
+id: 15
+professor: Adir
+disciplina: InglÃªs
+restricoes: [1, 4, 5, 6, 7, 11, 12, 15, 16, 17, 18, 19]
+-----------
+--[15][2]---------
+id: 2
+professor: Daniel
+disciplina: CiÃªncias
+restricoes: [1, 2, 3, 4, 9, 10, 11, 12, 17, 18, 19, 20]
+-----------
+--[15][4]---------
+id: 19
+professor: Edilcia
+disciplina: Espanhol
+restricoes: [1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 16, 17, 18]
+-----------
+--[17][3]---------
+id: 5
+professor: Fernanda
+disciplina: Sociologia
+restricoes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+-----------
+--[19][1]---------
+id: 4
+professor: Fabiana
+disciplina: Espanhol
+restricoes: [1, 2, 5, 6, 9, 10, 13, 14, 17, 18]
+-----------
+Valor: 3000
