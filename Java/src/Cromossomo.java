@@ -195,21 +195,48 @@ public class Cromossomo implements Comparable<Cromossomo> {
 	  */
 	 public String toString(){
 		 
-		 StringBuffer buf = new StringBuffer();
-		 buf.append("Classes: " + this.length);
+		  ArrayList<String> hNames = new ArrayList<String>();
+		  hNames.add("Segunda - 8:30");
+		  hNames.add("Segunda - 10:30");
+		  hNames.add("Segunda - 13:30");
+		  hNames.add("Segunda - 15:30");
+		  hNames.add("Terca - 8:30");
+		  hNames.add("Terca - 10:30");
+		  hNames.add("Terca - 13:30");
+		  hNames.add("Terca - 15:30");
+		  hNames.add("Quarta - 8:30");
+		  hNames.add("Quarta - 10:30");
+		  hNames.add("Quarta - 13:30");
+		  hNames.add("Quarta - 15:30");
+		  hNames.add("Quinta - 8:30");
+		  hNames.add("Quinta - 10:30");
+		  hNames.add("Quinta - 13:30");
+		  hNames.add("Quinta - 15:30");
+		  hNames.add("Sexta - 8:30");
+		  hNames.add("Sexta - 10:30");
+		  hNames.add("Sexta - 13:30");
+		  hNames.add("Sexta - 15:30");
+
+		  boolean found = false;
 		 
+		 StringBuffer buf = new StringBuffer();
+		 
+		 buf.append("<dl>");
 		 for(int i=0; i < this._numHorarios; i++){
+			 buf.append("<dt>" + hNames.get(i) + "</dt>");
+			 found = false;
 			 for(int j=0; j < this._maxTurmaHorario; j++){
-				 
 				 //Append do cromossomo i,j
 				 if(this._horarios[i][j] != null){
-					 buf.append("\n--[" + i + "][" + j + "]---------");
-					 buf.append("\r\n" + this._horarios[i][j].toString());
-					 buf.append("\n-----------");
+					 found = true;
+					 buf.append(this._horarios[i][j].toString() + "<hr>");
 				 }
-				 
 			 }
+			 
+			 if(!found) buf.append("<dd> Nenhuma turma cadastrada neste horario</dd>");
+			 
 		 }
+		 buf.append("</dl><hr>");
 		 
 		 buf.append("\r\nValor: " + this._value);
 		 

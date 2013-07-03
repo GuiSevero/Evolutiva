@@ -65,10 +65,10 @@ public class Gene implements Cloneable{
 	    
 	    public String toString(){
 	    	return
-	    	"id: " + id
-	    	+ "\nprofessor: " + professor
-	    	+ "\ndisciplina: " + disciplina
-	    	+ "\nrestricoes: " + horariosIndisponiveis.toString();
+	    	"<dd>id: " + id + "</dd>"
+	    	+ "<dd>professor: " + professor + "</dd>"
+	    	+ "<dd>disciplina: " + disciplina + "</dd>"
+	    	+ "<dd>restricoes: " + horariosIndisponiveis.toString() + "</dd>";
 	    	
 	    }
 	    

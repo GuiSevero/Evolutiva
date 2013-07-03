@@ -15,7 +15,7 @@ public class AlgoritmoGenetico {
 	private String _document;
 	private BufferedWriter _arquivoSaida;
 	private int _minutosMaximo = 1;
-	private int _maxPopulationSize = 200;
+	private int _maxPopulationSize = 4000;
 	private int _tamanhoElite = 25;
 	private Cromossomo _melhorSolucao;
 	private int _popInicial = 25;

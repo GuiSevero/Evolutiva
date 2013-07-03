@@ -7,68 +7,14 @@ Tempo máximo em minutos: 1
 
 Algoritmo iniciou em: 
 
-02:08:28
+02:47:06
 Melhor solução em: 
 
-02:08:29
-Número de cromossosmos: 125
+02:47:06
+Número de cromossosmos: 850
 Número de cromossosmos iniciais: 25
 Tamanho da elite: 25
 Melhor solução encontrada: 
 
-Classes: 0
---[0][1]---------
-id: 6
-professor: Rafael
-disciplina: Quimica
-restricoes: [3]
------------
---[0][4]---------
-id: 0
-professor: Miguel
-disciplina: Matematica
-restricoes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
------------
---[1][0]---------
-id: 1
-professor: Miguel
-disciplina: Fisica
-restricoes: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
------------
---[3][2]---------
-id: 2
-professor: Antonio
-disciplina: Fisica
-restricoes: [0]
------------
---[4][2]---------
-id: 4
-professor: Alberto
-disciplina: Biologia
-restricoes: [1]
------------
---[5][0]---------
-id: 3
-professor: Alberto
-disciplina: Quimica
-restricoes: [1]
------------
---[8][0]---------
-id: 8
-professor: Rafael
-disciplina: Matematica
-restricoes: [3]
------------
---[18][3]---------
-id: 7
-professor: Rafael
-disciplina: Biologia
-restricoes: [2]
------------
---[19][2]---------
-id: 5
-professor: Alberto
-disciplina: Matematica
-restricoes: [1]
------------
+<dl><dd>Segunda - 8:30</dd><dt>id: 0</dt><dt>professor: Miguel</dt><dt>disciplina: Matematica</dt><dt>restricoes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]</dt><dd>Segunda - 10:30</dd><dt>id: 1</dt><dt>professor: Miguel</dt><dt>disciplina: Fisica</dt><dt>restricoes: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]</dt><dd>Segunda - 13:30</dd><dt>id: 3</dt><dt>professor: Alberto</dt><dt>disciplina: Quimica</dt><dt>restricoes: [1]</dt><dt>id: 2</dt><dt>professor: Antonio</dt><dt>disciplina: Fisica</dt><dt>restricoes: [0]</dt><dd>Segunda - 15:30</dd><dd>Terça - 8:30</dd><dt>id: 7</dt><dt>professor: Rafael</dt><dt>disciplina: Biologia</dt><dt>restricoes: [2]</dt><dd>Terça - 10:30</dd><dd>Terça - 13:30</dd><dd>Terça - 15:30</dd><dd>Quarta - 8:30</dd><dd>Quarta - 10:30</dd><dd>Quarta - 13:30</dd><dt>id: 8</dt><dt>professor: Rafael</dt><dt>disciplina: Matematica</dt><dt>restricoes: [3]</dt><dd>Quarta - 15:30</dd><dd>Quinta - 8:30</dd><dd>Quinta - 10:30</dd><dt>id: 6</dt><dt>professor: Rafael</dt><dt>disciplina: Quimica</dt><dt>restricoes: [3]</dt><dd>Quinta - 13:30</dd><dd>Quinta - 15:30</dd><dd>Sexta - 8:30</dd><dt>id: 4</dt><dt>professor: Alberto</dt><dt>disciplina: Biologia</dt><dt>restricoes: [1]</dt><dd>Sexta - 10:30</dd><dt>id: 5</dt><dt>professor: Alberto</dt><dt>disciplina: Matematica</dt><dt>restricoes: [1]</dt><dd>Sexta - 13:30</dd><dd>Sexta - 15:30</dd></dl>
 Valor: 0

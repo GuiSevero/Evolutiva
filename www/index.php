@@ -54,13 +54,13 @@
 
 		<form id="file-form" enctype="multipart/form-data">
 
-      <label for="pop-inicial"><b>Tamanho Máximo da População</b></label>
+      <label for="pop-inicial"><b>Tamanho Inicial da População</b></label>
       <div class="input-prepend input-append">
-        <span class="add-on">10</span>
-        <input class="span4" id="range" type="range" min="25" max="3000" value="50" step="1">        
-        <span class="add-on">300</span>
+        <span class="add-on">25</span>
+        <input class="span4" id="range" type="range" min="25" max="1000" value="50" step="1">        
+        <span class="add-on">1000</span>
       </div>
-      <input type="number" class="span2" id="pop-inicial" min="25" max="3000" value="50"><br>
+      <input type="number" class="span2" id="pop-inicial" min="25" max="1000" value="50"><br>
 
       <hr>
 
@@ -103,6 +103,8 @@
     <script src="js/bootstrap.js"></script>    
     <script type="text/javascript">	
 
+    var timeoutid;
+
 		$('#range').change(function(){
 
 					$('#pop-inicial').val($(this).val());
@@ -118,7 +120,16 @@
 
     $('#start').click(function(){
 
-      $('#result').html("Executando...");
+      $('#start').attr('disabled', 'disabled');
+
+      //$('#result').html("Executando...");
+      var time = $('#taxa-mutacao').val() * 60;
+
+      timeoutid = setInterval(function(){
+          $('#result').html("Executando...<br>Tempo Restante: " + time--);
+          if(time < 0)
+            clearInterval(timeoutid);
+      }, 1000);
 
 		 $.get('ga.php',
       {
@@ -126,8 +137,9 @@
          ,pop: $('#pop-inicial').val()
          ,time: $('#taxa-mutacao').val()
       }, function(data){
-
+        clearInterval(timeoutid);
        $('#result').html(data);
+       $("#start").removeAttr('disabled');
      })
 		
     });
