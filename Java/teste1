@@ -1,5 +1,5 @@
 Algoritmo Genético
-Arquivo: teste1.json
+Arquivo: teste_full.json
 Melhor valor encontrado: 
 
 0
@@ -7,68 +7,140 @@ Tempo máximo em minutos: 1
 
 Algoritmo iniciou em: 
 
-00:20:05
+01:21:45
 Melhor solução em: 
 
-00:20:05
-Número de cromossosmos: 165
+01:21:47
+Número de cromossosmos: 110
 Número de cromossosmos iniciais: 25
 Tamanho da elite: 25
 Melhor solução encontrada: 
 
 Classes: 0
 --[0][2]---------
-id: 0
-professor: Miguel
-disciplina: Matematica
-restricoes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+id: 1
+professor: André
+disciplina: Educação Fisica
+restricoes: [1, 2, 3, 4, 5, 6, 15, 16, 17, 18, 19, 20]
 -----------
---[0][3]---------
-id: 3
-professor: Alberto
-disciplina: Quimica
-restricoes: [1]
+--[0][4]---------
+id: 7
+professor: Geferson
+disciplina: Redação
+restricoes: [1, 2, 5, 6, 7, 11, 12, 14, 15, 16, 18, 19]
+-----------
+--[1][0]---------
+id: 6
+professor: Gabriela
+disciplina: Ensino Religioso
+restricoes: [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 -----------
 --[1][2]---------
-id: 1
-professor: Miguel
-disciplina: Fisica
-restricoes: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+id: 3
+professor: Edilcia
+disciplina: Educação Artística
+restricoes: [3, 4, 7, 8, 11, 12, 15, 16, 19, 20]
 -----------
---[9][1]---------
-id: 5
-professor: Alberto
-disciplina: Matematica
-restricoes: [1]
------------
---[11][0]---------
+--[1][4]---------
 id: 8
-professor: Rafael
-disciplina: Matematica
-restricoes: [3]
+professor: Gislaine
+disciplina: Filosofia
+restricoes: [4, 6, 8, 9, 10, 12, 14, 15, 16, 18]
 -----------
---[12][1]---------
-id: 2
-professor: Antonio
-disciplina: Fisica
-restricoes: [0]
+--[2][0]---------
+id: 15
+professor: Adir
+disciplina: Inglês
+restricoes: [1, 4, 5, 6, 7, 11, 12, 15, 16, 17, 18, 19]
 -----------
---[14][2]---------
+--[3][1]---------
+id: 9
+professor: Henrique
+disciplina: Física
+restricoes: [1, 4, 5, 6, 7, 10, 14, 15, 16, 17, 18, 19]
+-----------
+--[3][2]---------
 id: 4
-professor: Alberto
-disciplina: Biologia
-restricoes: [1]
+professor: Fabiana
+disciplina: Espanhol
+restricoes: [1, 2, 5, 6, 9, 10, 13, 14, 17, 18]
 -----------
---[18][3]---------
-id: 7
-professor: Rafael
-disciplina: Biologia
-restricoes: [2]
+--[3][3]---------
+id: 11
+professor: Marcelo
+disciplina: Química
+restricoes: [5, 6, 8, 9, 10, 12, 13, 15, 17, 19]
 -----------
---[19][4]---------
-id: 6
-professor: Rafael
-disciplina: Quimica
-restricoes: [3]
+--[6][3]---------
+id: 10
+professor: Jefferson
+disciplina: Geografia
+restricoes: [4, 5, 7, 8, 9, 11, 12, 13, 15, 19]
+-----------
+--[8][3]---------
+id: 17
+professor: Geferson
+disciplina: Sociologia
+restricoes: [1, 2, 3, 4, 5, 14, 15, 16, 17, 18, 19]
+-----------
+--[10][3]---------
+id: 18
+professor: Virginia
+disciplina: Biologia
+restricoes: [1, 4, 5, 6, 7, 8, 9, 14, 15, 16, 18, 19]
+-----------
+--[10][4]---------
+id: 0
+professor: Adir
+disciplina: Biologia
+restricoes: [4, 5, 6, 8, 9, 11, 12, 13, 14, 15, 16, 17, 19]
+-----------
+--[11][1]---------
+id: 14
+professor: Virginia
+disciplina: Literatura
+restricoes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 13, 14, 15, 16]
+-----------
+--[13][0]---------
+id: 5
+professor: Fernanda
+disciplina: Sociologia
+restricoes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+-----------
+--[13][1]---------
+id: 16
+professor: Edilcia
+disciplina: História
+restricoes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 14, 15, 16, 17, 18, 19]
+-----------
+--[13][2]---------
+id: 20
+professor: Geferson
+disciplina: Geografia
+restricoes: [1, 6, 14, 16, 17, 18, 19]
+-----------
+--[15][4]---------
+id: 2
+professor: Daniel
+disciplina: Ciências
+restricoes: [1, 2, 3, 4, 9, 10, 11, 12, 17, 18, 19, 20]
+-----------
+--[16][4]---------
+id: 12
+professor: Maria
+disciplina: Português
+restricoes: [1, 2, 4, 5, 6, 7, 8, 11, 12, 14, 15, 17, 18]
+-----------
+--[17][3]---------
+id: 13
+professor: Renato
+disciplina: Matemática
+restricoes: []
+-----------
+--[19][1]---------
+id: 19
+professor: Edilcia
+disciplina: Espanhol
+restricoes: [1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 16, 17, 18]
 -----------
 Valor: 0

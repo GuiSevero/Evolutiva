@@ -21,6 +21,16 @@ public class Cromossomo implements Comparable<Cromossomo> {
 	public Gene[][] _horarios;
 	public ArrayList<Gene> _genes = new ArrayList<Gene>();
 	
+	/*public String hNames[
+	                     "Segunda - 8:30"
+	                     ,"Segunda - 10:30"
+	                     ,"Segunda - 13:30"
+	                     ,"Segunda - 15:30"
+	                     ,"Terca - 8:30"
+	                     ,"Terca - 10:30"
+	                     ,"Terca"
+	                     ]; */
+	
 	/**
 	 * Construtoi um novo cromossomo a partir do arquivo especificado por parametro
 	 * Será uma instancia do problema de otimização
@@ -173,6 +183,7 @@ public class Cromossomo implements Comparable<Cromossomo> {
 				  if(this._horarios[i][j] != null)
 					  c._horarios[i][j] = this._horarios[i][j].clone();
 			  }
+		  c.eval();
 		  
 		 return c;
 	 }
@@ -211,6 +222,7 @@ public class Cromossomo implements Comparable<Cromossomo> {
 	  */
 	@Override
 	public int compareTo(Cromossomo o) {
+		
 		//Verifica se esse objeto é pior que o cromossomo 'o'
 		if(this._value > o.getValue()){
 			return -1;

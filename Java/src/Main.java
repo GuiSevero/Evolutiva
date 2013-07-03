@@ -17,40 +17,10 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws Exception {
-    	String entrada = new String("teste1.json");
-    	//String entrada2 = new String("teste1.json");
-    	
-    	/*
-    	BufferedReader bReader = new BufferedReader(new InputStreamReader(new FileInputStream(entrada)));
-    	JSONTokener jt = new JSONTokener(bReader);
-    	JSONArray jOb = new JSONArray(jt);
-    	
-    	
-    	Cromossomo c = new Cromossomo(entrada);
-    	System.out.println(c.toString());
-    	System.out.println("\n\n========= CLONE =========");
-    	Cromossomo clone = c.clone();
-    	
-    	System.out.println(clone.toString());
-    	*/
-    	
-    	/*
-    	Cromossomo c1 = new Cromossomo(entrada);
-    	Cromossomo c2 = new Cromossomo(entrada2);
-    	
-    	System.out.println("\n\n C1 =============== C1");
-    	System.out.println(c1.toString());
-    	
-    	System.out.println("\n\n C2 =============== C2");
-    	System.out.println(c2.toString());
-    	
-    	c2.crossOver(c1);
-    	System.out.println("\n\n CROSS =============== CROSS");
-    	System.out.println(c2.toString());
-    	//testPopulation(entrada);
-    	 * 
-    	 */
-    	testExecutar(entrada, "teste1", 20, 1);
+    	if(args.length == 3)
+    		testExecutar(args[0], "res_" + args[0], Integer.parseInt(args[1]), Integer.parseInt(args[2]));
+    	else
+    		testExecutar("teste1.json", "test1_result",20, 1);
     }
     
     

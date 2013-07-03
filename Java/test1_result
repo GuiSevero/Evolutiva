@@ -1,0 +1,74 @@
+Algoritmo Genético
+Arquivo: teste1.json
+Melhor valor encontrado: 
+
+0
+Tempo máximo em minutos: 1
+
+Algoritmo iniciou em: 
+
+02:08:28
+Melhor solução em: 
+
+02:08:29
+Número de cromossosmos: 125
+Número de cromossosmos iniciais: 25
+Tamanho da elite: 25
+Melhor solução encontrada: 
+
+Classes: 0
+--[0][1]---------
+id: 6
+professor: Rafael
+disciplina: Quimica
+restricoes: [3]
+-----------
+--[0][4]---------
+id: 0
+professor: Miguel
+disciplina: Matematica
+restricoes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+-----------
+--[1][0]---------
+id: 1
+professor: Miguel
+disciplina: Fisica
+restricoes: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+-----------
+--[3][2]---------
+id: 2
+professor: Antonio
+disciplina: Fisica
+restricoes: [0]
+-----------
+--[4][2]---------
+id: 4
+professor: Alberto
+disciplina: Biologia
+restricoes: [1]
+-----------
+--[5][0]---------
+id: 3
+professor: Alberto
+disciplina: Quimica
+restricoes: [1]
+-----------
+--[8][0]---------
+id: 8
+professor: Rafael
+disciplina: Matematica
+restricoes: [3]
+-----------
+--[18][3]---------
+id: 7
+professor: Rafael
+disciplina: Biologia
+restricoes: [2]
+-----------
+--[19][2]---------
+id: 5
+professor: Alberto
+disciplina: Matematica
+restricoes: [1]
+-----------
+Valor: 0

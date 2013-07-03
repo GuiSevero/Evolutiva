@@ -21,6 +21,7 @@ public class AlgoritmoGenetico {
 	private int _popInicial = 25;
 	private String _inicioDoAlgoritmo;
 	private String _ultimaMelhorSolucaoEncontrada;
+	private int _maxGenerations = 2000;
 	
 	/**
 	 * 
@@ -205,7 +206,7 @@ public class AlgoritmoGenetico {
 	        System.out.println("Algoritmo iniciou para o arquivo " + _document + " as " + new java.text.SimpleDateFormat("HH:mm:ss").format(new java.util.Date()));                
 	        System.out.println("Aguarde...");
 	        long inicio = System.currentTimeMillis();        
-	        int populacao = 0;
+	        int geracoes = 0;
 	        
 	        
 	        //Ordena de forma crescente
@@ -214,7 +215,7 @@ public class AlgoritmoGenetico {
 	        _melhorSolucao = _population.get(0);
 	        
 	        // inicialização do algoritmo
-	        while (!PararGA(inicio, populacao)){ // se não satisfazer critério de parada
+	        while (!PararGA(inicio, geracoes)){ // se não satisfazer critério de parada
 	        	//this.generateFamily(populacao, _document);
 	        	
 	        	
@@ -246,10 +247,9 @@ public class AlgoritmoGenetico {
 	        	
 	        	//Coloca na elite caso seja uma boa solucao
 	        	for(int i=0; i < filho.length; i++){
-	        		
 	        		//Verifica se é melhor que a melhor solucao atual
 	        		if(filho[i].getValue() < _melhorSolucao.getValue()){
-		        		_melhorSolucao = filho[i];
+		        		_melhorSolucao = filho[i].clone();
 		        		System.out.println("Nova melhor solucao: " + _melhorSolucao.getValue());
 		        		System.out.println("Validade: " + _melhorSolucao.validate());
 		        		_ultimaMelhorSolucaoEncontrada = new java.text.SimpleDateFormat("HH:mm:ss").format(new java.util.Date());
@@ -297,14 +297,15 @@ public class AlgoritmoGenetico {
 	        	
 	        	
 	        	selecionaElite();
-	            populacao ++; 
+	            geracoes ++; 
 	            
 	            Collections.sort(_elite);
 	            Collections.sort(_population);
 	            
 	        }            
 	        System.out.println("Melhor Solucao Encontrada: " + _melhorSolucao.getValue());
-	        System.out.println("Algoritmo terminou para o arquivo " + _document + " as " + new java.text.SimpleDateFormat("dd/MM/yyyy HH:mm:ss").format(new java.util.Date()));                             
+	        System.out.println("Algoritmo terminou para o arquivo " + _document + " as " + new java.text.SimpleDateFormat("dd/MM/yyyy HH:mm:ss").format(new java.util.Date()));
+	        System.out.println(_melhorSolucao.toString());
 	        _arquivoSaida.close();
 	        
 	    }
@@ -319,7 +320,7 @@ public class AlgoritmoGenetico {
 	        this.sort();
 	        // se passou do tempo ou do número de iterações, ou encontrou todos no mesmo bin como melhor solução
 	       // if (minutos > _minutosMaximo || populacao > NumeroIteracoesMaximo || MelhorEncontrado == InstanciaBPPC.getNumeroItens() - 1){
-        	if ((minutos > _minutosMaximo)){
+        	if ((minutos > _minutosMaximo || this._melhorSolucao.getValue() == 0 )){
 	            _arquivoSaida.write("Algoritmo Genético");                        
 	            _arquivoSaida.newLine();
 	            _arquivoSaida.write("Arquivo: " + _document);            
