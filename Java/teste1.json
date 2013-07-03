@@ -2,47 +2,57 @@
 	{
 		"professor": "Miguel"	
 	  , "disciplina": "Matematica"
+	  , "restricoes": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
+	}
+,
+	{
+		"professor": "Miguel"	
+	  , "disciplina": "Fisica"
+	  , "restricoes": [2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
 	}
 ,
 
 	{
 		"professor": "Antonio"	
 	  , "disciplina": "Fisica"
+	  , "restricoes": [0]
 	}
 ,
 	{
 		"professor": "Alberto"	
 	  , "disciplina": "Quimica"
-	}
-,
-	{
-		"professor": "Rafael"	
-	  , "disciplina": "Biologia"
-	}
-,
-	{
-		"professor": "Miguel"	
-	  , "disciplina": "Fisica"
+	  , "restricoes": [1]
 	}
 ,
 	{
 		"professor": "Alberto"	
+	  , "disciplina": "Biologia"
+	  , "restricoes": [1]
+	}
+
+,
+	{
+		"professor": "Alberto"	
 	  , "disciplina": "Matematica"
+	  , "restricoes": [1]
 	}
 ,
 	{
 		"professor": "Rafael"	
 	  , "disciplina": "Quimica"
+	  , "restricoes": [3]
 	}
 ,
 	{
-		"professor": "Antonio"	
+		"professor": "Rafael"	
 	  , "disciplina": "Biologia"
+	  , "restricoes": [2]
 	}
 ,
 	{
 		"professor": "Rafael"	
 	  , "disciplina": "Matematica"
+	  , "restricoes": [3]
 	}
 
 ]

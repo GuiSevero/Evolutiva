@@ -41,29 +41,6 @@ public class AlgoritmoGenetico {
 	}
 	
 	
-	/**
-	 * 
-	 * @param pai - Cromossomo Pai
-	 * @param mae - Cromossomo Filho
-	 * @return Cromossomo[] populacao gerada - filho1 e filho2
-	 */
-	public Cromossomo crosOver2(Cromossomo pai, Cromossomo mae){
-		
-        return pai;
-	}
-	
-	/**
-	 * Esta sobrecarga do cross-over faz uma variação de apenas um pai
-	 * @param pai
-	 * @return
-	 */
-	
-	public Cromossomo crosOver2(Cromossomo pai){
-		
-		return pai;
-        
-	}
-	
 	public void sort(){
 		Collections.sort(_population);
 	}
@@ -274,6 +251,7 @@ public class AlgoritmoGenetico {
 	        		if(filho[i].getValue() < _melhorSolucao.getValue()){
 		        		_melhorSolucao = filho[i];
 		        		System.out.println("Nova melhor solucao: " + _melhorSolucao.getValue());
+		        		System.out.println("Validade: " + _melhorSolucao.validate());
 		        		_ultimaMelhorSolucaoEncontrada = new java.text.SimpleDateFormat("HH:mm:ss").format(new java.util.Date());
 		        	}
 	        		
@@ -286,6 +264,7 @@ public class AlgoritmoGenetico {
 	        		}
 	        		
 	        	}
+	        	
 	        	
 	        	
 	        	if(_population.size() < _maxPopulationSize){
@@ -319,6 +298,9 @@ public class AlgoritmoGenetico {
 	        	
 	        	selecionaElite();
 	            populacao ++; 
+	            
+	            Collections.sort(_elite);
+	            Collections.sort(_population);
 	            
 	        }            
 	        System.out.println("Melhor Solucao Encontrada: " + _melhorSolucao.getValue());

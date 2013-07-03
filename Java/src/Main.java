@@ -17,8 +17,8 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws Exception {
-    	String entrada = new String("teste2.json");
-    	String entrada2 = new String("teste1.json");
+    	String entrada = new String("teste1.json");
+    	//String entrada2 = new String("teste1.json");
     	
     	/*
     	BufferedReader bReader = new BufferedReader(new InputStreamReader(new FileInputStream(entrada)));

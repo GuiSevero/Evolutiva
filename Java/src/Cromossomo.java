@@ -15,10 +15,11 @@ public class Cromossomo implements Comparable<Cromossomo> {
 	
 	private int _value = -1; //Valor 
 	private int length = 0;
-	private boolean _valid = true;
+	private boolean _isValid = true;
 	public int _numHorarios = 20; // 20 horarios diferentes por semana
 	public int _maxTurmaHorario = 5; //Nro máximo 5 turmas num mesmo horario
 	public Gene[][] _horarios;
+	public ArrayList<Gene> _genes = new ArrayList<Gene>();
 	
 	/**
 	 * Construtoi um novo cromossomo a partir do arquivo especificado por parametro
@@ -77,7 +78,6 @@ public class Cromossomo implements Comparable<Cromossomo> {
 	 * @return
 	 */
 	public int getValue(){
-		
 		return _value;
 	}
 	
@@ -140,6 +140,12 @@ public class Cromossomo implements Comparable<Cromossomo> {
         	Random r = new Random();
         	 target = r.nextInt(this._numHorarios);
         	 
+        	 //Atribui um ID para o gene
+        	 g.id = i;
+        	 
+        	 //Adiciona na lista de genes
+        	 this._genes.add(g);
+        	 
         	//Coloca o gene na posicao sorteada
         	 for(int j=0; j < this._maxTurmaHorario; j++ ){
         		 if(this._horarios[target][j] == null){
@@ -160,6 +166,7 @@ public class Cromossomo implements Comparable<Cromossomo> {
 	 public Cromossomo clone(){
 		  //Instancia um novo Cromossomo
 		  Cromossomo c = new Cromossomo();
+		  c._genes = this._genes;
 		  
 		  for(int i=0; i < this._numHorarios; i++)
 			  for(int j=0; j < this._maxTurmaHorario; j++){
@@ -205,12 +212,12 @@ public class Cromossomo implements Comparable<Cromossomo> {
 	@Override
 	public int compareTo(Cromossomo o) {
 		//Verifica se esse objeto é pior que o cromossomo 'o'
-		if(this._value < o.getValue()){
+		if(this._value > o.getValue()){
 			return -1;
 		}
 		
 		//Verifica se esse cromossomo é melhor que o cromossomo 'o'
-		if(this._value > o.getValue()){
+		if(this._value < o.getValue()){
 			return 1;
 		}
 		
@@ -236,6 +243,8 @@ public class Cromossomo implements Comparable<Cromossomo> {
 	    	
 	    	this._horarios[i][t1] = this._horarios[j][t2];
 	    	this._horarios[j][t2] = aux;
+	    	
+	    	this.eval();
 		}
 	    
 	    
@@ -257,19 +266,42 @@ public class Cromossomo implements Comparable<Cromossomo> {
 	                return this;
 	    }
 	    
+	    protected boolean validate(){
+	    	
+	    	for(int i=0; i < this._genes.size(); i++){
+	    		if(this.hasGen(this._genes.get(i)) != 1) return false;
+	    	}
+	    	
+	    	return true;
+	    }
+	    
+	    public int countGenes(){
+	    	int i,j,count = 0;
+	    	for(i=0; i < this._numHorarios; i++)
+	    		for(j=0; j < this._maxTurmaHorario; j++)
+	    			if(this._horarios[i][j] != null) count++;
+	    	
+	    	return count;
+	    }
+	    
 	    
 	    /**
 	     * Ve se este cromossomo já tem o Gene g
 	     * @param Gene a ser procurado
 	     * @return <b>boolean</b> <br><b>true</b>: se tem o gene <br><b>false</b>: caso contrario
 	     */
-	    public boolean hasGen(Gene g){
+	    public int hasGen(Gene g){
+	    	int count = 0;
+	    	
+	    	if(g == null) return 0;
+	    	
 	    	for(int i=0; i < this._numHorarios; i++)
 				for(int j=0; j <this._maxTurmaHorario; j++)
+					if(this._horarios[i][j] != null)
 					if(this._horarios[i][j].equals(g))
-						return true; //encontrou - retorna true
+						count++; //encontrou - retorna true
 	    	
-	    	return false; //não encontrou - retorna falso
+	    	return count; //não encontrou - retorna falso
 	    }
 	    
 	    /**
@@ -306,6 +338,9 @@ public class Cromossomo implements Comparable<Cromossomo> {
 				}
 				
 			}
+			
+			pai.eval();
+			this.eval();
 			
 			if(pai.getValue() >= this._value)
 				return pai;
@@ -365,7 +400,11 @@ public class Cromossomo implements Comparable<Cromossomo> {
 				}
 			}
 			
+			
 			this._value = teachersSameTime * teacherWorth + teachersWindows * windowWorth + teachersCrash * crashWorth;
+			
+			if(!this.validate()) this._value += 3000;
+			
 		}
 	
 
